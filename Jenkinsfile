@@ -28,7 +28,7 @@ pipeline {
          stage('push') {
             steps {
                 echo 'Hello push'
-                sh 'dockerps'
+                sh 'docker ps'
             }
         }
     }
